@@ -1,10 +1,104 @@
-
+[
 {
-		"name": "Karakal Worker",
-    "uniqueTo": "Pan-Slavic Union", 
+		"name": "Caracal Worker",
+    "uniqueTo": "Caracal Confederation", 
      "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 4,
 		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 45
 	},
+{
+		"name": "Caracal Settler",
+    "uniqueTo": "Caracal Confederation", 
+     "replaces": "Settler",
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 53,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction"],
+		"hurryCostModifier": 20
+	},
+{
+		"name": "Caracal Scout",
+    "uniqueTo": "Caracal Confederation", 
+     "replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 10,
+		"cost": 20,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+{
+		"name": "Caracal Warrior",
+    "uniqueTo": "Caracal Confederation", 
+     "replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 16,
+		"cost": 25,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+{
+		"name": "Caracal Archer",
+    "uniqueTo": "Caracal Confederation", 
+     "replaces": "Archer",
+		"unitType": "Archery",
+		"movement": 5,
+		"strength": 10,
+		"rangedStrength": 14,
+		"cost": 25,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+{
+		"name": "Caracal in work boat",
+   "uniqueTo": "Caracal Confederation", 
+     "replaces": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 6,
+		"cost": 15,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable"]
+	},
+{
+		"name": "Archer Caracal in Chariot",
+  "uniqueTo": "Caracal Confederation", 
+     "replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 6,
+		"strength": 12,
+		"rangedStrength": 18,
+		"cost": 46,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+{
+		"name": "Caracal Spearman",
+  "uniqueTo": "Caracal Confederation", 
+     "replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	}
+]
