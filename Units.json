@@ -1,1 +1,10 @@
 
+{
+		"name": "Karakal Worker",
+    "uniqueTo": "Pan-Slavic Union", 
+     "replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 4,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"cost": 45
+	},
