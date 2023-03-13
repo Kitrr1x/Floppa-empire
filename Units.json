@@ -72,8 +72,8 @@
 	},
 {
 		"name": "Archer Caracal in Chariot",
-  "uniqueTo": "Caracal Confederation", 
-     "replaces": "Chariot Archer",
+	 "uniqueTo": "Caracal Confederation",
+		"replaces": "Chariot Archer",
 		"unitType": "Archery",
 		"movement": 6,
 		"strength": 12,
