@@ -99,5 +99,19 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
-	}
+	},
+{
+		"name": "Composite Bowman",
+	 "uniqueTo": "Caracal Confederation",
+		"replaces": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 16,
+		"rangedStrength": 16,
+		"cost": 50,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
 ]
