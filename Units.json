@@ -709,4 +709,46 @@
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
+		{
+		"name": "SU-50",
+	        "uniqueTo": "Caracal Confederation",
+		"replaces": "Jet Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 12,
+		"interceptRange": 12,
+		"cost": 360,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+500]% Strength <vs [Bomber] units>", "[+500]% Strength <vs [Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
+		{
+		"name": "Giant Death dumpling Robot",
+		"unitType": "Armored",
+		"movement": 6,
+		"strength": 200,
+		"cost": 400,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "gdrAttack"
+	},
+		{
+		"name": "TU-160",
+		"uniqueTo": "Caracal Confederation",
+		"replaces": "Stealth Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 85,
+		"range": 20,
+		"cost": 425,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"uniques": ["Damage taken from interception reduced by [100]%", "[+4] Sight", "Can see over obstacles"],
+		"attackSound": "bombing"
+	}
 ]
