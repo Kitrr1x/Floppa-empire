@@ -62,7 +62,7 @@
 	},
 {
 		"name": "Caracal in work boat",
- 	 "uniqueTo": "Caracal Confederation",
+	 "uniqueTo": "Caracal Confederation",
 		"replaces": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 6,
