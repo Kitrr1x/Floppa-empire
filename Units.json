@@ -9,12 +9,11 @@
 		"cost": 45
 	},
 {
-		"name": "Caracal Settler",
-    "uniqueTo": "Caracal Confederation", 
+		"name": "Caracal Settler",     "uniqueTo": "Caracal Confederation", 
      "replaces": "Settler",
 		"unitType": "Civilian",
 		"movement": 4,
-		"cost": 53,
+		"cost": 50,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction"],
 		"hurryCostModifier": 20
 	},
