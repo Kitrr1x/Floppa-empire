@@ -1,16 +1,16 @@
 [
 {
 		"name": "Caracal Worker",
-    "uniqueTo": "Caracal Confederation", 
-     "replaces": "Worker",
+	 "uniqueTo": "Caracal Confederation",
+		"replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 4,
 		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 45
 	},
 {
-		"name": "Caracal Settler",     "uniqueTo": "Caracal Confederation", 
-     "replaces": "Settler",
+		"name": "Caracal Settler",     	 "uniqueTo": "Caracal Confederation",
+		"replaces": "Settler",
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 50,
@@ -19,8 +19,8 @@
 	},
 {
 		"name": "Caracal Scout",
-    "uniqueTo": "Caracal Confederation", 
-     "replaces": "Scout",
+	 "uniqueTo": "Caracal Confederation",
+		"replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 4,
 		"strength": 10,
@@ -32,8 +32,8 @@
 	},
 {
 		"name": "Caracal Warrior",
-    "uniqueTo": "Caracal Confederation", 
-     "replaces": "Warrior",
+	 "uniqueTo": "Caracal Confederation",
+		"replaces": "Warrior",
 		"unitType": "Sword",
 		"movement": 4,
 		"strength": 16,
@@ -48,8 +48,8 @@
 	},
 {
 		"name": "Caracal Archer",
-    "uniqueTo": "Caracal Confederation", 
-     "replaces": "Archer",
+	 "uniqueTo": "Caracal Confederation",
+		"replaces": "Archer",
 		"unitType": "Archery",
 		"movement": 5,
 		"strength": 10,
@@ -62,8 +62,8 @@
 	},
 {
 		"name": "Caracal in work boat",
-   "uniqueTo": "Caracal Confederation", 
-     "replaces": "Work Boats",
+ 	 "uniqueTo": "Caracal Confederation",
+		"replaces": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 6,
 		"cost": 15,
@@ -100,19 +100,4 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	}
-{
-		"name": "War Chariot",
-		"unitType": "Archery",
-		"uniqueTo": "Egypt",
-		"replaces": "Chariot Archer",
-		"movement": 5,
-		"strength": 6,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
-		"attackSound": "arrow"
-	},
 ]
