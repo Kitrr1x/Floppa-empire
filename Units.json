@@ -100,4 +100,19 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	}
+{
+		"name": "War Chariot",
+		"unitType": "Archery",
+		"uniqueTo": "Egypt",
+		"replaces": "Chariot Archer",
+		"movement": 5,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"attackSound": "arrow"
+	},
 ]
