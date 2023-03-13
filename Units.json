@@ -88,8 +88,8 @@
 	},
 {
 		"name": "Caracal Spearman",
-  "uniqueTo": "Caracal Confederation", 
-     "replaces": "Spearman",
+	 "uniqueTo": "Egypt",
+		"replaces": "Chariot Archer",
 		"unitType": "Sword",
 		"movement": 4,
 		"strength": 20,
