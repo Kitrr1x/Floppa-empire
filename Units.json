@@ -101,7 +101,23 @@
 		"attackSound": "metalhit"
 	},
 {
-		"name": "Composite Bowman",
+		"name": "Caracal on a horse",
+	 "uniqueTo": "Caracal Confederation",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 18,
+		"cost": 60,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+{
+		"name": "Caracal Composite Archer",
 	 "uniqueTo": "Caracal Confederation",
 		"replaces": "Composite Bowman",
 		"unitType": "Archery",
@@ -114,4 +130,48 @@
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
+{
+		"name": "Caracal Swordsman",
+	 "uniqueTo": "Caracal Confederation",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+{
+		"name": "Caracal Pikeman",
+  "uniqueTo": "Caracal Confederation",
+		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+{
+		"name": "Caracal galleas",
+  "uniqueTo": "Caracal Confederation",
+		"replaces": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 6,
+		"strength": 22,
+		"rangedStrength": 24,
+		"cost": 75,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	}
 ]
